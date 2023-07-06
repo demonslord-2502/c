@@ -1,0 +1,21 @@
+P_6
+
+Dump Memory contents using PMdump
+
+1.	
+Here we will use program name mempass, and we will see how by using combination of pmdump and strings, we are able to dump the password in memory.
+Let start the mempass
+  
+
+2.	
+Now open new terminal and run PMdump, pmdump –list will list the running program currently.
+ 
+ 
+3.	
+Here we can see the pid of mempass i.e., 3456. We will dump the entire memory of mempass program in paswd.txt file
+ 
+4.	
+File name paswd is created having direct memory of mempass program without tampering the running mempass program
+              
+In this way, we can retrieve passwords from applications which store them in memory without any form of encryption.
+

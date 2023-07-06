@@ -1,0 +1,58 @@
+P_1
+1 File System Analysis using The SleuthKit (Autospy, fsstat, istat, fls and img_stat)
+
+==>
+1]
+Autopsy     Welcome     window     will appear    along    with    Autopsy     main window   in the      background.  In    the   Welcome   window, click New Case.
+
+2]
+Select Type     of    Data Source to Add. In  this   lab, we  will  be  analyzing     a  disk image;  therefore,            select  the option  "Disk Image or VM File "  and  click  Next.
+
+3]
+A   window (named      Open) will appear     where you   need to   specify    the forensic image.   Navigate to  
+C:\CHFI-Tools\Evidence Files\Forensic Images, select Linux_Evidence_001.img  and   click  Open.
+
+4]
+The   Add   Data   Source     window    now    displays the    Configure     Ingest       Modules section, which     contains     lists      of   options      that     are   checked.       Select   the     options according    to   your requirement       and   click    Next.
+
+5]
+The application now   displays the result in the    Autopsy      main window.  Expand the      Data      Sources         node    in    the    left       pane     and     click      on   the    image       file    i.e.,Linux_Evidence_001.img. This    will show   the    contents     of the image    file, as shown   in the following   screenshot:
+
+6]
+You may examine all the required     files    stored    in    the   image     as   a part    of filesystem         analysis. In    this    lab, we are   going     to     view    the     passwd   file    that    is stored   in \etc   location. Therefore, select the    etc folder    from    the left    pane.
+Upon      selecting         the     folder, all   the     files      and    folders           present       in      etc     are     displayed in the right pane of the window.
+Scroll down    the window, select    the     passwd file and click the Text tab.
+Autopsy     displays    all   the    text (user     account    information) present    in    the passwd       file, under the Strings tab, 
+as  shown  in    the    following  screenshot:
+
+7]
+Click on File Metadata   and scroll   down the section to find the MD5 value for    the     SeatPlan.xls   file.
+home > roger > documents > seatplan
+
+8]
+To study fsstat
+To view    partition     tables    associated      with     Windows_Evidence_002.dd, type          mmls      "C:\CHFI-Tools\EvidenceFiles\ForensicImages\Windows_Evidence_002.dd"and   press    Enter.     This   displays    the partition           layout           of    a    volume          system (partition tables) associated with the image file, as shown in the following       screenshot:
+ 
+cmd > the sleuth kit(TSK)\bin > mmls......
+
+9]
+Similarly, to view the type of file system and the OS related to the image, type fsstat "C:\CHFI-Tools\Evidence Files\Forensic Images\Windows_Evidence_001.dd"and then press Enter.
+
+10]
+From the above screenshot, it can be observed that the file system is NTFS and the source      OS is Windows XP
+
+To Study img_stat
+
+Use the img_stat command to view the details of the selected image. Type img_stat"C:\CHFI-Tools\Evidence Files\Forensic Images\Windows_Evidence_001.dd"and press Enter to view   the details.
+
+11]
+To Study istat
+Use the istat tool in The Sleuth Kit to view the details of metadata structure. To display an     overview of the MFT file, type   istat   -f   ntfs "C:\CHFI-Tools\Evidence Files\Forensic Images\Windows_Evidence_001.dd" 0 and press Enter to view   the details.
+
+12]
+To Study istat
+Use the istat tool in The Sleuth Kit to view the details of metadata structure. To display an     overview of the MFT file, type   istat   -f   ntfs "C:\CHFI-Tools\Evidence Files\Forensic Images\Windows_Evidence_001.dd" 0 and press Enter to view   the details.
+
+13]
+To Study fls
+Use the fls command-line tool of TSK to list the files and directory names.  Type fls -f  ntfs        "C:\CHFI-Tools\EvidenceFiles\ForensicImages\Windows_Evidence_001.dd"and then     press   Enter.

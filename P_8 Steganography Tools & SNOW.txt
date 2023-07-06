@@ -1,0 +1,128 @@
+P_8 Steganography Tools & SNOW
+
+a.	Using Steganography Tools [S-Tools]
+
+Following steps Show how to use freeware S-Tools utility to hide and reveal files inside pictures
+
+Step 1) 
+Select the S-Tools.exe file and open the steganography software tool.
+ 
+Step 2) 
+With both the working directory and the S-Tools program open minimize both windows and place side-by-side.
+ 
+The S-Tools program is a drag and drop software. The files used to create the steganography file can be dragged from the directory into the S-Tools program.
+
+Step 3) 
+Select the file from the directory and drag it over the S-Tools main window and release the
+file.
+
+A dialogue box appears indicating that the file type is unknown. Supported file types for audio and image files are shown below:
+	Audio - *.wav
+	Image - *.bmp and *.gif
+
+If your image is in .jpg format, convert it to .bmp format.
+
+Step 4) 
+Select a file to hide within the base file. If it’s not there, create a txt file and save the file. Here we have created file name Hidden file 
+
+Step 5) 
+The *.txt text file is selected and dragged on top of the base image. Release the file while the cursor is still on top of the base file.
+
+Step 6) 
+A dialogue box will appear asking the user to enter and verify a passphrase. Additionally, the user will have to select an encryption algorithm.
+
+Step 7) 
+Select the ‘OK’ button after entering a valid passphrase.
+
+Step 8) 
+The S-Tools main window will appear and a new file will be visible. The name of the file will be called hidden data by default.
+ 
+Step 9) 
+Place the cursor on top of the hidden data image and select the right mouse button. The user will
+have four options available to them:
+
+	Save
+	Save As
+	Properties
+	Reveal
+Select the ‘Save As’ button.
+ 
+Step 10) 
+A ‘Save As’ dialogue box will appear. Enter a valid file name, select the working directory and select the ‘Save’ button.
+ 
+Step 11) 
+Selecting the ‘Reveal’ button will display a passphrase dialogue box. A passphrase must be entered twice in the dialogue box and the correct encryption algorithm must be selected.
+ 
+Step 12) 
+Enter a passphrase twice, select the encryption algorithm, and select the ‘OK’ button.
+ 
+
+Step 13) 
+A ‘Revealed Archive’ dialogue box will display which contains the file name and size of the hidden file.
+ 
+Step 14) 
+Select the ‘Save As’ button.
+
+
+ 
+Step 15) The Revealed data is saved in revealfile.txt
+ 
+======================
+
+b.	Using Whitespace Stegnography tool SNOW
+
+Step 1) 
+Create a text file with some data in the same directory 0where Snow Tool is installed. 
+  
+Step 2) 
+Go to Command Prompt 
+Change the directory to run Snow tool 
+ 
+
+Step 3) 
+Type the command 
+Snow –C –m “text to be hide” –p “password” <Sourcefile> <Destinationfile> 
+ 
+The source file is a Hello.txt file as shown above. Destination file will be the exact copy of source file containing hidden information. 
+ 
+Go to the directory; you will a new file HelloWorld.txt. Open the File 
+ 
+
+Step 4) 
+New File has the same text as an original file without any hidden information. This file can be sent to the target. 
+Recovering Hidden Information 
+On destination, Receiver can reveal information by using the command 
+Snow –C –p “password123” HelloWorld.txt 
+ 
+As shown in the above figure, File decrypted, showing hidden information encrypted in the previous section. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

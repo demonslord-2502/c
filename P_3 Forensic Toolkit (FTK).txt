@@ -1,0 +1,55 @@
+P_3
+
+Using Forensic Toolkit (FTK) &Writing report usingFTK (AccessData FTK)
+
+Aim: Using Windows Forensics Tools.
+
+Step 1: Start Forensic Toolkit.
+ 
+Step 2: Here, prompted with a warning dialog box, click on OK to continue.
+
+Step 3: click on OK button.
+ 
+Step 4: Now select Start New Case option and click on ok.
+
+Step 5: Enter the detail for a New case.
+ 
+Step 6: Fill the information in Forensic Examiner Information dialog box.
+ 
+Step 7: leave the default settings and click on next.
+ 
+Step 8: Now again leave the default settings and click on next.
+ 
+Step 9: In the Refine Case-Default, click the Include All items button and then click Next.
+ 
+Step 10: In Refine Index-Default, accept the default settings and click Next.
+ 
+Step 11: Now here Click on add Evidence button.
+ 
+Step 12: Enter Evidence Information and click on OK button.
+ 
+Step 13: Now click on Next.
+ 
+
+Step 14: Click on Finish to initiate the analysis.
+ 
+Step 15: Now Processing Will Start........
+ 
+Step 16: when FTK finishes the processing part, the FTK window opens to the Overview tab.
+ 
+Step 17: Select Deleted Files option to explore the evidence items.
+ 
+Step 18: Select Encrypted Files to view.
+ 
+From the menu, select Report, and then Generate Report or click the button on the toolbar.
+
+ 
+ 
+The Case Information dialog appears, enter the Case information and The Bookmarks-A & B dialog appears select what you want to include in report click next.
+
+ 
+
+List File Properties dialog appear, include the list you want in Report and click next and Finish.
+ 
+
+  

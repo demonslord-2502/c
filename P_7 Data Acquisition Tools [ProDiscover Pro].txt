@@ -1,0 +1,34 @@
+P_7 Data Acquisition Tools [ProDiscover Pro]
+
+Using Data Acquisition Tools [ProDiscover Pro]
+
+Step 1) 
+Start ProDiscover. ProDiscover presents the launch dialog.
+ 
+Step 2) 
+Enter a project number, project name, and description of the project in the new project tab
+option, and then click the Open button.
+ProDiscover will then create a project and generate a template report in the work area.
+
+Step 3) Open Image:
+1] Select save project option from the file menu, or button bar and Open Image option.
+ 
+ 
+Step 4) 
+ProDiscover displays the contents of the selected file at the bottom of the main window. Right click on a file.
+ 
+
+Step 5) 
+In ProDiscover a pop-up dialog with the choice to View or Recover the selected file. Select View
+
+
+Step 6)
+For further study, we can also copy the file at desired location
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+P_2
+a.	Explore Windows forensic tools (OSForensics)
+
+1]
+Navigate to C:\CHFI-Tools\CHFIv10Module  06 Windows Forensics\Windows             Forensics Tools\OS Forensics, double-clickosf.exe to launch the steup. In the final step of installation, check the Launch OSForensics option and click Finish. OSForensics GUI   appears, along with PassMark OSForensics pop-up. In the pop-up, click Continue Using      Trial Version. Our first task is to create a case using this tool. Click the Create Case icon in the tool’s main window to create a new case.
+
+2]
+A New Case window appears; fill out the required fields in the window. Ensure that you     select      the radio button for the Live Acquisition of Current Machine option in the Acquisition          Type category.  You may choose to save the new case folder either in Default or      Custom locations. Click   OK
+
+3]
+The OSForensics tool can help investigators in searching and locating files on a system.         To   start searching for files, click File Name Search in the left pane of the window.
+
+4]
+In the Start Folder field, specify the path to search for image files by clicking the ellipsis       button      and    choosing      the    location (here, we are specifying the location C:\CHFI-Tools\EvidenceFiles\Image Files to search for images in it). Then, click the Search button.
+
+5]
+Alternatively, if you wish to search only for a single image on the entire system, select      Images from the Pre-sets drop-down menu, enter the name of the desired image   file in the   Search String field, and then   click Search, as   shown in    the screenshot below. Here, we   are searching for the JPEG image file named Kitty.
+
+6]
+The Create Index section appears in the right pane. In this section, select   the Use    Pre-defined        File    Types     option     for    creating    the   index and check      the    required options listed under it for selecting the file types that you wish to index (here, we have selected the Images option). Then, click Next.
+
+7]
+We will    now    search    the    indexed      files.      To   search    for    the   indexed      files, select      Search       Index       from      the    left       pane      of the    tool       window.         The    Search Index      section      now    appears    in    the    tool       window.      The index     field     at the top       displays       the       name       of    the      case       we    created (i.e.,        Case       75).   Click Search.    The tool     will load   the image   files that    you   have indexed     under the Images tab.
+
+8]
+Click User Activity in    the left   pane to scan for evidence such as browsed websites, USB    drives, recent downloads and wireless networks. 
+
+9]
+If     you      wish    to     save     any     of   the     above       user-activity          information               on    your system, such    as   Browser History, then scroll down the items list in   the left      pane      below     the      Scan      Drive      option       and    expand      the      Browser         History node.       Select      the      browser        for        which      you        wish    to     retrieve        the       history (Here, we are   selecting Chrome). The browser history pertaining to this browser         will    be   displayed in the right   pane of   the tool   window.
+
+10] 
+An Export List to. Window will appear. Navigate to C:\Users\Administrator\Documents\PassMark\OSForensics\Cases\Case  75,    name   the    file    (here,      we  are    naming    it    as   Browsing        History),      and click         Save      to     export        the        browsing             history.
+
+11]
+To recover    deleted files from    the file   system, click    Deleted    File   Search in    the    left       pane, select      a   disk     on     which     you      wish   to      perform       the      deleted file search from the Disk drop-down menu, and click the search button.
+
+12]
+To locate    files    having   contents    that    do   not    match the   file   extensions, click        Mismatch          File      Search       in    the    left        pane      of   the     tool         window.         The tool     will display the    Mismatch     File    Search   section in   the   right    pane, as shown     in    the    screenshot:
+
+13]
+To   view   the   processes running on the    system, click Memory Viewer  
+
+To    retrieve          detailed        information               about       the      core      components              of    the system, click     System      Information.            The   tool       will    display     the     System Information    section.
+
+14]
+In     this         manner, you      can      perform          investigation on    a system          or   the      folders and    partitions       within   the    system    to    gather     data   of interest     to   the    forensic investigation.
+

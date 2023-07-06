@@ -1,0 +1,18 @@
+P_10 Scan Registry using RegScanner
+
+
+Step 1) 
+Download and Install RegScanner 
+ 
+Step 2) 
+Quickly scan your Registry and Search for the specific values with RegScanner
+You can select to scan the base keys and the string types. Enter the search string and start the scan
+ 
+Step 3) 
+Check the Scan Result
+ 
+Step 4) 
+You can save, copy or export the selected items, Export Reg values as REG or
+HTML files, and more 
+ 
+
